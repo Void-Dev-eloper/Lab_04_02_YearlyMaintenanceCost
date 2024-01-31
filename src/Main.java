@@ -12,5 +12,6 @@ public class Main {
         System.out.println("Fall Cost: $" + fallCost);
         System.out.println("Winter Cost: $" + winterCost);
         System.out.println("Yearly Cost: $" + yearlyCost);
+
     }
 }
