@@ -2,10 +2,10 @@ public class Main {
     public static void main(String[] args) {
 
         double summerCost = 399.99;
-        double springCost = summerCost;
-        double fallCost = summerCost;
-        double winterCost = summerCost;
-        double yearlyCost = summerCost * 4;
+        double springCost = 399.99;
+        double fallCost = 449.99;
+        double winterCost = 499.99;
+        double yearlyCost = summerCost + springCost + fallCost + winterCost;
 
         System.out.println("Summer Cost: $" + summerCost);
         System.out.println("Spring Cost: $" + springCost);
